@@ -1,3 +1,4 @@
+
 class Coin {
 	constructor() {
 		// Create coin element

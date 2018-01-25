@@ -1,3 +1,4 @@
+
 var isGameDone = false;
 
 var init = function() {
