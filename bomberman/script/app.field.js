@@ -1,3 +1,4 @@
+
 // TALE CLASS
 class Tale {
 	constructor(newState) {

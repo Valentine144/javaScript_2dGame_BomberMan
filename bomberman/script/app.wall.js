@@ -23,4 +23,3 @@ class Wall {
 		Walls.push(this);
 	}
 }
-

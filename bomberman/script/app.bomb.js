@@ -107,8 +107,7 @@ class Bomb {
 					deleteWall(this.Danger[tale]);
 					Field.Tales[this.Danger[tale].X][this.Danger[tale].Y] = tState["None"];
 					break;
-			}
-					
+      }	
 		}
 	};
 
@@ -127,7 +126,4 @@ var deleteWall = function(WallTale) {
 		}
 	}
 }
-
-			
-
 					
