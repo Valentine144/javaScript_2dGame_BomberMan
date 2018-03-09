@@ -25,10 +25,10 @@ var init = function() {
 	Field.model.appendChild(Player.model);
 	placeItem(Player);
 
-	var WallsLength = 10 + (Math.random()*(Field.w*Field.h/5).toFixed()).toFixed();
+	var WallAmount = 40;
 	// Init Walls
 	for (var i = 0; 
-		i < WallsLength; 
+		i < WallAmount; 
 		i++)
 	{
 		new Wall();
@@ -47,8 +47,6 @@ var init = function() {
 }
 
 window.onload = function main() {
-	Field.w = prompt("Input width in blocks:", "");
-	Field.h = prompt("Input height in blocks:", "");
 	init();	
 	window.onkeydown = keyHandler;
 } 

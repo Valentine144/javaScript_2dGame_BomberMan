@@ -1,7 +1,7 @@
 // FIELD CONSTANTS
 var Field = {
-	w: undefined,
-	h: undefined,
+	w: 10,
+	h: 10,
 	side: 75,
 };
 
